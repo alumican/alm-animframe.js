@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "es6",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "alm": ["node_modules/alm-coreutil.js/dist/index.d.ts"]
+    },
+    "strict": false
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
